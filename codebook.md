@@ -6,19 +6,17 @@
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Output
-* For step 4, the cleaned data set is saved in `tidy data.txt`. For step 5, the cleaned data set is saved in tidy data with average.txt 
+* For step 4, the cleaned data set is saved in `tidy data.txt`. For step 5, the cleaned data set is saved in `tidy data with average.txt` 
 * variables in tidy data.txt are: 
 `
-    activity
-
-    tBodyAcc-mean()-X
-    
-    tBodyAcc-mean()-Y
-    tBodyAcc-mean()-Z
-    tBodyAcc-std()-X
-    tBodyAcc-std()-Y
-    tBodyAcc-std()-Z
-    tGravityAcc-mean()-X
+    activity;
+    tBodyAcc-mean()-X;
+    tBodyAcc-mean()-Y;
+    tBodyAcc-mean()-Z;
+    tBodyAcc-std()-X;
+    tBodyAcc-std()-Y;
+    tBodyAcc-std()-Z;
+    tGravityAcc-mean()-X;
     tGravityAcc-mean()-Y
     tGravityAcc-mean()-Z
     tGravityAcc-std()-X

@@ -8,8 +8,7 @@
 ## Output
 * For step 4, the cleaned data set is saved in `tidy data.txt`. For step 5, the cleaned data set is saved in `tidy data with average.txt` 
 * variables in tidy data.txt are: 
-```
-    activity;
+``` activity
     tBodyAcc-mean()-X
     tBodyAcc-mean()-Y
     tBodyAcc-mean()-Z
@@ -69,7 +68,7 @@
 ```
 * variables in tidy data with average.txt are:
 
-    subject
+``` subject
     activity
     tBodyAcc-mean()-X
     tBodyAcc-mean()-Y
@@ -127,3 +126,4 @@
     fBodyGyro-mean()-Y
     fBodyGyro-mean()-Z
     fBodyGyro-std()-X
+```

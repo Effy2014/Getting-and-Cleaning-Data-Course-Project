@@ -10,4 +10,4 @@ This is the course project of Getting and Cleaning Data from Coursera
 ## Project Summary
 * `run_analysis.R` is the script to clean the data
 * work directory needs to be changed before running the script 
-* More details of variables and summaries calculated can be found in codebook.md
+* More details of variables and summaries calculated can be found in `codebook.md`

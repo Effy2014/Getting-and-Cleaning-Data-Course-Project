@@ -3,8 +3,8 @@
 Xinli Wang 
 
 ## Overview
-The purpose of this project is to collect, work with and clean a data set that can be used for later analysis.
-* This is the course project of Getting and Cleaning Data from Coursera
+This is the course project of Getting and Cleaning Data from Coursera
+* The purpose of this project is to collect, work with and clean a data set that can be used for later analysis
 * Link to data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ## Project Summary

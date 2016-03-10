@@ -7,6 +7,7 @@
 
 ## Output
 * For step 4, the cleaned data set is saved in `tidy data.txt`. For step 5, the cleaned data set is saved in `tidy data with average.txt` 
+
 * variables in tidy data.txt are: 
 ``` activity
     tBodyAcc-mean()-X

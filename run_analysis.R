@@ -22,7 +22,7 @@ data.2 <- cbind(activity, data.1)
 for (i in 1:6){
     data.2$activity <- gsub(i, activity_labels[i,"V2"], data.2$activity)
 }
-write.table(data.2, "tidy data.txt")
+write.table(data.2, "tidy data.txt", row.names = FALSE)
 
 subject_test <- read.table("test/subject_test.txt")
 subject_train <- read.table("train/subject_train.txt")
@@ -31,4 +31,4 @@ colnames(subject) <- c("subjectId")
 data.3 <- cbind(subject, data.2)
 data.4 <- aggregate(data.3[,c(3:ncol(data.3))], by= list(data.3$subjectId, data.3$activity), FUN = mean)
 setnames(data.4, old = c("Group.1", "Group.2"), new = c("subject", "activity"))
-write.table(data.4, "tidy data with average.txt")
+write.table(data.4, "tidy data with average.txt", row.names = FALSE)
